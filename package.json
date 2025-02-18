@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+  "prebuild": "chmod +x ./node_modules/.bin/vite",
+  "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+
   },
   "dependencies": {
     "body-parser": "^1.20.3",
