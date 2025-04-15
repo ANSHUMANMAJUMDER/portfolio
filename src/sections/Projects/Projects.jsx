@@ -3,7 +3,8 @@ import ProjectCard from '../../common/ProjectCard';
 import incomekaro from '../../assets/incomekaro.webp'
 import javascript_project from '../../assets/javascript.jpeg'
 import apple_clone from '../../assets/apple.jpeg'
-import funky_bites from '../../assets/funkybites.webp'
+// import funky_bites from '../../assets/funkybites.webp'
+import atlas from '../../assets/atlas.png'
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
@@ -31,9 +32,9 @@ function Projects() {
           p="Clone of Apple website"
         />
         <ProjectCard
-          src={funky_bites}
-          link="https://restaurant-bay-three.vercel.app/"
-          github="https://github.com/ANSHUMANMAJUMDER/restaurant"
+          src={atlas}
+          link="https://atlas-five-khaki.vercel.app/"
+          github="https://github.com/ANSHUMANMAJUMDER/atlas"
           h3="Funky Bites"
           p="Restaurant Website"
         />
