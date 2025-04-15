@@ -35,8 +35,8 @@ function Projects() {
           src={atlas}
           link="https://atlas-five-khaki.vercel.app/"
           github="https://github.com/ANSHUMANMAJUMDER/atlas"
-          h3="Funky Bites"
-          p="Restaurant Website"
+          h3="Atlas"
+          p="Encyclopedia Website"
         />
       </div>
     </section>
